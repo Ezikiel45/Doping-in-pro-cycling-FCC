@@ -1,0 +1,65 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d8891;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+svg {
+  margin-top: 150px;
+  background-color: lightBlue;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px rgba(0,0,0, 0.5);
+}
+
+.legend {
+  position: relative;
+  top: -350px;
+  left: 600px;
+}
+
+.color-code {
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-right: 10px;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.title {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  position: absolute;
+  background-color: linen;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.dot:hover {
+  fill: rgba(0,0,0,0.4);
+  r: 10px;
+}
